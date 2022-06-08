@@ -10,3 +10,8 @@ by a single activity. Each fragment manages its own separate lifecycle.
 
 ## Fragment Lifecycle
 ![img.png](img.png)
+
+## Fragment class provides many methods that can be override to respond to lifecylce events
+![img_1.png](img_1.png)
+
+![img_2.png](img_2.png)
