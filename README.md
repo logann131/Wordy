@@ -8,3 +8,5 @@ within the view hierarchy of an activity when it is shown onscreen. Due to their
 reusability and modularity, it's even possible for multiple fragments to be hosted simultaneously 
 by a single activity. Each fragment manages its own separate lifecycle.
 
+## Fragment Lifecycle
+![img.png](img.png)
