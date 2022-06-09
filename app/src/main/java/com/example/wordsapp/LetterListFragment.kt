@@ -33,6 +33,13 @@ import com.example.wordsapp.databinding.FragmentLetterListBinding
  * Entry fragment for the app. Displays a [RecyclerView] of letters.
  */
 class LetterListFragment : Fragment() {
+
+    /**
+     * The type FragmentLetterListBinding? and it should have an initial value of null.
+     * Why make it nullable? Because you can't inflate the layout until onCreateView() is called.
+     * There's a period of time in-between when the instance of LetterListFragment is created
+     * (when its lifecycle begins with onCreate()) and when this property is actually usable
+     */
     private var _binding: FragmentLetterListBinding? = null
 
     // This property is only valid between onCreateView and
